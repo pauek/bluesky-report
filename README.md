@@ -447,5 +447,6 @@ resultats.
 
 -   Pau Fernández
 -   Ona Siscart
+-   Jordi Petit
 
 Universitat Politècnica de Catalunya, 2025
