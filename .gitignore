@@ -1,0 +1,7 @@
+.pixi
+*.egg-info
+__pycache__
+*.gt
+*.pdf
+*.svg
+bsky_cache.sqlite
