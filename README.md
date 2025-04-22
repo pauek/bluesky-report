@@ -229,10 +229,10 @@ seguidors del "client".
 En particular, anomenarem $G_B = (V_B, E_B)$ el graf dirigit complet de
 seguidors de Bluesky, a on una aresta $(a, b)$ indica que l'usuari $a$ segueix a
 $b$. Donat un subconjunt d'usuaris $U$ de Bluesky (molt menor que el total), la
-_restricció_ del graf $B$ a $U$ és un graf $G_U = (V_U, E_U)$ a on $V_U$ és el
-subconjunt de vèrtexs $v\in V_B$ que representen als usuaris $U$, i
-$E = \{ (a, b) \in E_B\ |\ a\in V_U \wedge b\in V_U \}$, és a dir, només les
-arestes que tenen com a origen y destí un usuari de $U$.
+_restricció_ del graf $G_B$ a $U$ és un graf $G_U = (V_U, E_U)$ a on $V_U$ és el
+subconjunt de vèrtexs $v\in V_B$ que representen als usuaris $U$, i $E$ són les
+arestes $(a, b)\in E_B$ tals que $a\in V_U$ i $b\in V_U$. És a dir, només les
+arestes que tenen com a origen y destí un vèrtex de $V_U$.
 
 Així doncs, la obtenció del graf consta dels passos següents:
 
