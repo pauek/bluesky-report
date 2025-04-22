@@ -1,4 +1,4 @@
-# Bluesky Report
+# Bluesky Report (Segona Pràctica AP2, Primavera de 2025)
 
 En aquesta pràctica seràs el CEO d'una _start-up_ que ofereix un servei molt
 valuós per a un usuari de la xarxa social [Bluesky](https://bsky.app): un
