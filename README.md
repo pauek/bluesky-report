@@ -389,7 +389,7 @@ La pràctica tindrà 3 lliuraments, utilitzant el Racó:
 
 | Part        | Termini                                      |
 | ----------- | -------------------------------------------- |
-| Part 1      | diumenge 4 de maig de 2025 a les 23:55 CEST  |
+| Part 1      | dimarts 6 de maig de 2025 a les 23:55 CEST   |
 | Parts 1+2   | diumenge 25 de maig de 2025 a les 23:55 CEST |
 | Parts 1+2+3 | dimarts 3 de juny de 2025 a les 23:55 CEST   |
 
