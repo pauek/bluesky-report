@@ -388,11 +388,13 @@ missatge, es considerarà que feu la pràctica junts (i no s'admetràn "divorcis
 
 La pràctica tindrà 3 lliuraments, utilitzant el Racó:
 
-| Part        | Termini                                      | Pes         |
-| ----------- | -------------------------------------------- | ----------- |
-| Part 1      | dimarts 6 de maig de 2025 a les 23:55 CEST   | 3 punts     |
-| Parts 1+2   | diumenge 25 de maig de 2025 a les 23:55 CEST | 3+5 punts   |
-| Parts 1+2+3 | dimarts 3 de juny de 2025 a les 23:55 CEST   | 3+5+2 punts |
+| Part   | Termini                                      | Pes     |
+| ------ | -------------------------------------------- | ------- |
+| Part 1 | dimarts 6 de maig de 2025 a les 23:55 CEST   | 3 punts |
+| Part 2 | diumenge 25 de maig de 2025 a les 23:55 CEST | 5 punts |
+| Part 3 | dimarts 3 de juny de 2025 a les 23:55 CEST   | 2 punts |
+
+L'entrega de la Part 2 inclou la Part 1, i la Part 3 inclourà les 3 parts.
 
 Per a cada lliurament, cal lliurar un fitxer ZIP que, al descomprimir-se, generi
 el directori del projecte. A més, s'han d'incloure els resultats d'almenys 2
