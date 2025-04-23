@@ -36,6 +36,28 @@ descarregar-ne un ZIP) i instal·lar els paquets necessaris. Per fer la
 instal·lació més fàcil, cal tenir instal·lat
 [Pixi](https://pixi.sh/latest/), que automatitza tot el procés.
 
+La instal·lació té un pas previ en Windows, donat que `graph-tool` requereix el WSL (Windows Subsystem for Linux), que permet tenir binaris de Linux funcionant en Windows.
+
+### WSL (només si esteu a Windows)
+
+En Windows el primer pas és instal·lar (si no el teniu ja), el WSL ([Windows Subsystem for Linux](https://ca.wikipedia.org/wiki/Windows_Subsystem_for_Linux)), amb:
+
+```sh
+wsl --install
+```
+
+Aquesta instal·lació por trigar força temps i ocupar molt d'espai (perquè conté una part important de tots els programes d'una distribució d'Ubuntu).
+
+Un cop instal·lat el WSL, només cal seguir les instruccions per Linux tenint en compte que les comandes que surten s'han d'entrar en el terminal de WSL. 
+
+**WSL l'VSCode**: En VSCode, la barra d'estat té un botó a l'esquerra de tot amb dos signes "><" com:
+
+![WSL](img/wsl.png)
+
+Si premeu aquest botó, VSCode us mostra un menú a on pots triar si vols fer servir un altre "sistema", i quan tens instal·lat WSL, us sortirà una opció "WSL". Al triar-la VSCode utilitza com a sistema intern el WSL, i els terminals oberts dins de VSCode són tots ja a dins el WSL. 
+
+### Instal·lació per Linux, MacOS i WSL
+
 Així doncs, només dos passos haurien de ser necessaris:
 
 1. Si no el teniu ja, cal instal·lar Pixi amb:
