@@ -50,7 +50,7 @@ Aquesta instal·lació por trigar força temps i ocupar molt d'espai (perquè co
 
 Un cop instal·lat el WSL, només cal seguir les instruccions per Linux tenint en compte que les comandes que surten s'han d'entrar en el terminal de WSL. 
 
-**WSL l'VSCode**: En VSCode, la barra d'estat té un botó a l'esquerra de tot amb dos signes "><" com:
+💡 **WSL amb VSCode**: En VSCode, la barra d'estat té un botó a l'esquerra de tot amb dos signes "><" com:
 
 ![WSL](img/wsl.png)
 
