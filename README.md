@@ -170,7 +170,7 @@ Les funcions són les següents:
     completes (de tipus `Profile`) dels seguidors d'un usuari, donat
     el seu _handle_.
 
--   `get_feed(handle: str, limit: int = 1000) -> list[Post | Repost]`:
+-   `get_feed(handle: str, limit: int = 20) -> list[Post | Repost]`:
     Obté una llista de tots els _posts_ d'un usuari a partir del seu
     _handle_.
 
