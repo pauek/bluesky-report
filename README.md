@@ -443,7 +443,7 @@ tracta i alhora de no sobreescriure informes de clients diferents.
 
 ### Grafs en SVG
 
-Per incloure SVGs al PDF cal escriure codi com el següent:
+Per incloure SVGs al PDF cal escriure [codi com el següent](https://py-pdf.github.io/fpdf2/SVG.html#detailed-example):
 
 ```python
 import fpdf
@@ -461,13 +461,13 @@ pdf.output("report_with_image.pdf")
 
 Això funciona bé amb SVGs senzills, però els que genera `graph_tool` tenen algunes característiques que `fpdf2` no entén, i dóna un error d'execució. La solució és transformar els SVGs per "simplificarlos" amb una utilitat escrita en Python que es diu [`scour`](https://github.com/scour-project/scour). Per sort, `scour` produeix SVGs que estan lliures d'aquestes parts que `fpdf2` no entén.
 
-Scour es pot instal·lar simplement amb `pixi install scour` i llavors ja el tindreu en l'entorn que s'obre al fer `pixi shell` i des d'un terminal és suficient amb:
+Scour es pot instal·lar simplement amb `pixi install scour` i llavors ja el tindreu en l'entorn que s'obre al fer `pixi shell` i des del terminal és tant senzill com:
 
 ```bash
 scour entrada.svg > sortida.svg
 ```
 
-Per transformar `entrada.svg`, que prové de `graph_tool`, en `sortida.svg`, que es podrà carregar amb `fpdf2`.
+Per transformar `entrada.svg` (que prové de `graph_tool`) en `sortida.svg`, que es podrà carregar sense errors amb `fpdf2`.
 
 ## Instruccions
 
