@@ -461,7 +461,7 @@ pdf.output("report_with_image.pdf")
 
 Això funciona bé amb SVGs senzills, però els que genera `graph_tool` tenen algunes característiques que `fpdf2` no entén, i dóna un error d'execució. La solució és transformar els SVGs per "simplificarlos" amb una utilitat escrita en Python que es diu [`scour`](https://github.com/scour-project/scour). Per sort, `scour` produeix SVGs que estan lliures d'aquestes parts que `fpdf2` no entén.
 
-Scour es pot instal·lar simplement amb `pixi install scour` i llavors ja el tindreu en l'entorn que s'obre al fer `pixi shell` i des del terminal és tant senzill com:
+Scour es pot instal·lar simplement amb `pixi add scour` i llavors ja el tindreu en l'entorn que s'obre al fer `pixi shell` i des del terminal és tant senzill com:
 
 ```bash
 scour entrada.svg > sortida.svg
