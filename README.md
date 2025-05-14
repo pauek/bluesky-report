@@ -441,6 +441,34 @@ havent esborrat la carpeta i els fitxers intermitjos.
 El fet d'afegir el nom del client al fitxer ajuda a saber de qui es
 tracta i alhora de no sobreescriure informes de clients diferents.
 
+### Grafs en SVG
+
+Per incloure SVGs al PDF cal escriure codi com el següent:
+
+```python
+import fpdf
+
+pdf = fpdf.FPDF(unit="cm", format="A4")
+pdf.add_page()
+
+# Llegeix el SVG i el transforma en comandes per pintar en un PDF
+svg = fpdf.svg.SVGObject.from_file("some.svg")
+svg.draw_to_page(pdf)
+
+# Produeix el PDF
+pdf.output("report_with_image.pdf")
+```
+
+Això funciona bé amb SVGs senzills, però els que genera `graph_tool` tenen algunes característiques que `fpdf2` no entén, i dóna un error d'execució. La solució és transformar els SVGs per "simplificarlos" amb una utilitat escrita en Python que es diu [`scour`](https://github.com/scour-project/scour). Per sort, `scour` produeix SVGs que estan lliures d'aquestes parts que `fpdf2` no entén.
+
+Scour es pot instal·lar simplement amb `pixi install scour` i llavors ja el tindreu en l'entorn que s'obre al fer `pixi shell` i des d'un terminal és suficient amb:
+
+```bash
+scour entrada.svg > sortida.svg
+```
+
+Per transformar `entrada.svg`, que prové de `graph_tool`, en `sortida.svg`, que es podrà carregar amb `fpdf2`.
+
 ## Instruccions
 
 ### Equips
