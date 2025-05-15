@@ -573,7 +573,7 @@ Afegeixo aclariments i informació que respòn a preguntes fetes durant el desen
 
 #### Criteris de correcció
 
-Es considera el codi com l'artefacte principal a entregar i el més rellevant. Així doncs, no cal entregar cap document que expliqui del projecte d'alguna forma repetint el que ja fa el codi. 
+Es considera el codi com l'artefacte principal a entregar i el més rellevant. Així doncs, no cal entregar cap document que expliqui el projecte repetint el que ja fa el codi. 
 
 En concret, els aspectes principals són que el programa sigui: correcte, ben construit, usable, llegible, i amb resultats relativament interessants.
 
