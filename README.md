@@ -566,3 +566,27 @@ seus paràmetres i resultats.
 -   Jordi Petit
 
 Universitat Politècnica de Catalunya, 2025
+
+### Annexe I: (15/5/2025)
+
+Afegeixo aclariments i informació que respòn a preguntes fetes durant el desenvolupament de la pràctica per l'estudiantat:
+
+#### Criteris de correcció
+
+Es considera el codi com l'artefacte principal a entregar i el més rellevant. Així doncs, no cal entregar cap document que expliqui del projecte d'alguna forma repetint el que ja fa el codi. 
+
+En concret, els aspectes principals són que el programa sigui: correcte, ben construit, usable, llegible, i amb resultats relativament interessants.
+
+- **Correcte** vol dir que si l'executem amb diferents entrades sempre dóna algun resultat i informa de potencials errors, i no menys important, que els resultats són els que es donen a l'informe i no hi ha errors en els càlculs. En particular, els informes entregats com a exemples s'han de poder reproduir gairebé exactament (excepte, es clar, la posició dels nodes en la visualització, ja que fan servir un algorisme atzarós).
+
+- **Ben construit** vol dir que les classes, funcions, i l'estructura general es correspòn al problema que es vol resoldre i reflexa un model mental clar i concís sobre l'algorisme o algorismes que s'estan aplicant. En particular, molta repetició o ineficiències i circumlocucions per resoldre coses simples són problemàtics.
+
+- **Usable** vol dir que provar el programa requereix un esforç mínim: idealment hi ha un sol _script_ fet amb `click` (o alguna altra eina, això és igual) que permet posar un "handle" de Bluesky en el terminal, i després de mostrar certs missatges de què està fent, el programa acaba produint un PDF o text/Markdown amb l'informe, malgrat això pugui trigar cert temps. A l'altre extrem, poc usable vol dir que cal llegir el codi per saber com executar cada pas i la forma de fer-ho no està documentada i pren molt de temps aconseguir-ho per falta d'informació o confusió. Aquí pot anar bé detallar molt breument les comandes necessàries en un README.
+
+- **Llegible** vol dir que les funcions totes tenen un nom que defineix perfectament el que fan i tenen almenys una línia de documentació que permet veure'n una mica més de detall sense haver-les d'obrir (col·locant el cursor a sobre amb VSCode). Alhora, el codi és prou clar com per no necessitar comentaris intersticials, malgrat que en alguns punts clau es donen pistes sobre com s'ha resolt algun problema o alguns paràmetres o idees que poden confondre. Potser s'inclou en un README que explica l'estructura de forma molt directa, per ajudar a situar-se en el codi, com per exemple, quines parts hi ha i en quins fitxers estan.
+
+- Amb **resultats relativament interessants** vol dir que s'inclouen exemples d'informes d'algun o alguns usuaris amb els que s'ha experimentat que són rellevants per mostrar parts de l'informe (i que costarien de trobar si algú comença desde zero), i quins algorismes s'han fet servir per obtenir aquests resultats. També és bon senyal que els resultats numèrics reflexin el que es veu als grafs mostrats i que cadascún tingui alguna peculiaritat. Potser també s'inclouen altres potencials usuaris amb els que s'ha experimentat en el README. En particular, s'avaluarà molt positivament fer interpretacions en termes de xarxes socials dels resultats, que connectin els valors numèrics amb dades que serien més d'interès per al "client".
+
+#### Correcció
+
+La correcció en detall es farà al final. Les entregues intermitges són per ajudar a la planificació, i sobretot per poder donar _feedback_ en cassos en què s'ha interpretat l'enunciat d'una manera diferent de l'esperada, amb temps per corregir. Per tant es poden millorar la Part 1 i la Part 2 després d'haver-les entregat.
